@@ -1,0 +1,93 @@
+.specials-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding-top: 20rem;
+  }
+  
+  .specials-top {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  
+  .menu-button {
+    width: 200px;
+    padding: 0.8rem 1.6rem;
+    font-weight: bold;
+    background-color: #f4ce14;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+  }
+  
+  .specials-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .special-card {
+    width: 22rem;
+    display: grid;
+    grid-template-rows: 19rem auto auto auto;
+    background-color: #e2e2e2ab;
+    border-radius: 15px 15px 0 0;
+    gap: 1.6rem;
+    overflow: hidden;
+  }
+  
+  .special-card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .special-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.6rem;
+  }
+  
+  .special-card-title {
+    font-weight: bold;
+  }
+  
+  .special-card-price {
+    color: #f4ce14;
+    font-weight: bold;
+  }
+  
+  .special-card-body {
+    padding: 0 1.6rem;
+    color: #495e57;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .special-card-footer {
+    display: flex;
+    align-items: center;
+    gap: 1.8rem;
+    padding: 0 1.6rem 2rem;
+  }
+  
+  .special-card-button {
+    font-weight: bold;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+
+.special-card-footer img {
+    width: 25px;
+}
+  

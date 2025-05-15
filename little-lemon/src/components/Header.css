@@ -1,0 +1,47 @@
+.header {
+  position: fixed;    
+  top: 0;            
+  left: 0;            
+  right: 0;           
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: white;
+  z-index: 1000;     
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+}
+body, .App {
+  padding-top: 45px; 
+}
+
+.nav {
+  display: flex; 
+  gap: 2rem;
+  list-style: none; 
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+  color: black; 
+}
+
+.nav li a {
+  text-decoration: none;
+  color: inherit; 
+}
+
+.nav li:hover {
+  background-color: rgb(73, 94, 87);
+  border-radius: 1.6rem;
+  color: white !important;
+}
+
+img {
+  height: 60px;
+}

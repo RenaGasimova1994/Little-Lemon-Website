@@ -1,0 +1,67 @@
+.customers-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+    background-color: rgba(251, 218, 187, 0.3);
+    align-items: center;
+  }
+  
+  .title h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .customers-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2rem;
+    width: 80%;
+  }
+  
+  .customers-say-card {
+    width: 15rem;
+    background-color: #e2e2e2ab;
+    border-radius: 15px 15px 0 0;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .customers-say-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .profile-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    border: 3px solid #fff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .highlight {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 0.8rem;
+  }
+  
+  .description {
+    font-size: 0.95rem;
+    color: #444;
+    line-height: 1.4;
+  }
+  
